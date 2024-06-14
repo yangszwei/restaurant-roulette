@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
+	runtimeConfig: {
+		googleMapsApiKey: '',
+	},
 	postcss: {
 		plugins: {
 			autoprefixer: {},
